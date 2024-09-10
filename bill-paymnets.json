@@ -1,0 +1,14 @@
+{
+  "_id": ObjectId,
+  "userId": ObjectId,
+  "billerName": String,
+  "billerAccountNumber": String,
+  "billType": String,
+  "amountDue": Number,
+  "currency": String,
+  "dueDate": Date,
+  "status": String,
+  "transactionId": ObjectId,
+  "createdAt": Date,
+  "updatedAt": Date,
+}
