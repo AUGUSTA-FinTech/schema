@@ -1,0 +1,18 @@
+{
+  "_id": ObjectId,
+  "userId": ObjectId,
+  "transactionType": String,
+  "amount": Number,
+  "currency": String,
+  "merchantId": ObjectId,
+  "status": String,
+  "transactionDetails": {
+    "toAccountId": ObjectId,
+    "referenceNumber": String,
+    "description": String,
+  },
+  
+  "createdAt": Date,
+  "updatedAt": Date,
+  "completedAt": Date,
+}
