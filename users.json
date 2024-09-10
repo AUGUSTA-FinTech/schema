@@ -1,0 +1,18 @@
+{
+  "_id": ObjectId, //mongo generated
+  "userName": String,
+  "email": String,
+  "password": String,
+  "role": String, 
+//roles vary..they are either customer, merchant or admin
+  "wallet": {
+    "balance": Number,
+    "currency": String
+  },
+  "contactDetails": {
+    "phone": String,
+    "address": String
+  },
+  "createdAt": Date,
+  "updatedAt": Date
+}
