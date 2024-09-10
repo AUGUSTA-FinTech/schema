@@ -1,0 +1,9 @@
+{
+  "_id": ObjectId,
+  "userId": ObjectId,
+  "message": String,
+  "type": String,
+  "isRead": Boolean,
+  "createdAt": Date,
+  "updatedAt": Date,
+}
